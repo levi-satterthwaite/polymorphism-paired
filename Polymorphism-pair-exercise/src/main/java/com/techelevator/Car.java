@@ -5,6 +5,12 @@ public class Car implements Vehicle {
     // attributes
     private boolean hasTrailer;
 
+    // getters
+
+
+    public boolean isHasTrailer() {
+        return hasTrailer;
+    }
 
     // constructor
     public Car(boolean hasTrailer) {
@@ -15,7 +21,12 @@ public class Car implements Vehicle {
 
     @Override
     public double calculateToll(int distance) {
-        
-        return 0;
+        double tollTotal;
+        if (hasTrailer == true) {
+          tollTotal = (distance * .02) + 1;
+        } else {
+            tollTotal = (distance * .02);
+        }
+        return tollTotal;
     }
 }
