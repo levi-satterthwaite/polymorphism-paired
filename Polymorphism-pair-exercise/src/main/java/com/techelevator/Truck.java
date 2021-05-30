@@ -7,12 +7,12 @@ public class Truck implements Vehicle {
 
     // getter
 
-    public int getNumberOfAxles() {
+    public int getNumberOfAxels() {
         return numberOfAxels;
     }
 
     // constructor
-    public Truck(int numberOfAxles) {
+    public Truck(int numberOfAxels) {
         this.numberOfAxels = numberOfAxels;
     }
 
@@ -32,13 +32,14 @@ public class Truck implements Vehicle {
     }
 
     @Override
-    public String toString() {
+    public String toString(){
         if (numberOfAxels <= 4) {
-            return "truck (4 axels)";
+            return "Truck (4 axels)";
         } else if (numberOfAxels <= 6) {
-            return "truck (6 axels)";
-       } else (numberOfAxels <= 8) {
-          return "truck (8 axels)";
+            return "Truck (6 axels)";
+       } else if (numberOfAxels >= 8) {
+          return "Truck (8 axels)";
         }
-        }
+        return "";
     }
+}

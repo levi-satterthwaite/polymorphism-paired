@@ -2,8 +2,8 @@ package com.techelevator;
 
 public class Tank implements Vehicle{
 
-    // method
 
+    // method
     @Override
     public double calculateToll(int distance){
         return 0;
@@ -12,6 +12,6 @@ public class Tank implements Vehicle{
 
 @Override
 public String toString(){
-    return "tank";
+    return "Tank";
 }
 }

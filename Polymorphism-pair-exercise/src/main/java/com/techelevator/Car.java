@@ -33,10 +33,9 @@ public class Car implements Vehicle {
     @Override
     public String toString(){
         if (hasTrailer == true){
-            return "car (with trailer)";
-        }else{
-            return "car";
+            return "Car (with trailer)";
+        } else {
+            return "Car";
         }
     }
-
 }

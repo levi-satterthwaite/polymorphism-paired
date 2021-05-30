@@ -29,7 +29,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../levisatterthwaite-java-blue/module-1/05_Command_Line_Programs/lecture-final" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TollCalculator">
     <configuration name="CatPackingCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.techelevator.example.CatPackingCalculator" />
       <module name="m01d05-command-line-programs-lecture-final" />
@@ -43,8 +43,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TollCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techelevator.TollCalculator" />
+      <module name="m01d15-polymorphism-pair-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techelevator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TollCalculator" />
         <item itemvalue="Application.CatPackingCalculator" />
       </list>
     </recent_temporary>
