@@ -30,4 +30,13 @@ public class Car implements Vehicle {
         return tollTotal;
     }
 
+    @Override
+    public String toString(){
+        if (hasTrailer == true){
+            return "car (with trailer)";
+        }else{
+            return "car";
+        }
+    }
+
 }

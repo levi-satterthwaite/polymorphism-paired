@@ -7,7 +7,7 @@ public class TollCalculator {
     public static void main(String[] args) {
 
 
-        //int randomDistance = (int) (Math.random() * (240 - 10) + 10);
+        int randomDistance = (int) (Math.random() * (240 - 10) + 10);
 
         List<Vehicle> vehiclesThroughToll = new ArrayList<Vehicle>();
         vehiclesThroughToll.add(new Car(false));
@@ -18,18 +18,14 @@ public class TollCalculator {
         vehiclesThroughToll.add(new Truck(8));
 
 
+        System.out.println("Vehicle       Distance Traveled       Toll $" );
+        System.out.println("----------------------------------------------");
 
 
-  /*
     for (Vehicle vehicles: vehiclesThroughToll){
-        double rand = randomDistance;
-        System.out.println(vehicles() + rand + vehicles.calculateToll(10) );
+        int rand = randomDistance;
+        System.out.println(vehicles.toString() + rand +"$" + vehicles.calculateToll(rand) );
     }
-*/
-
-    System.out.println("Vehicle       Distance Traveled       Toll $" );
-    System.out.println("----------------------------------------------");
-    System.out.println("Car                 " + randomDistance + "                $" + vehiclesThroughToll[0].calculateToll(randomDistance) );
 
 
 

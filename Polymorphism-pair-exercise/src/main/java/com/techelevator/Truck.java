@@ -1,19 +1,19 @@
 package com.techelevator;
 
-public class Truck implements Vehicle{
+public class Truck implements Vehicle {
 
     // attributes
-    private int numberOfAxles;
+    private int numberOfAxels;
 
     // getter
 
     public int getNumberOfAxles() {
-        return numberOfAxles;
+        return numberOfAxels;
     }
 
     // constructor
-    public Truck(int numberOfAxles){
-        this.numberOfAxles = numberOfAxles;
+    public Truck(int numberOfAxles) {
+        this.numberOfAxels = numberOfAxels;
     }
 
     // method
@@ -21,13 +21,24 @@ public class Truck implements Vehicle{
     @Override
     public double calculateToll(int distance) {
         double tollTotal;
-        if (numberOfAxles < 6) {
+        if (numberOfAxels < 6) {
             tollTotal = (.04 * distance);
-        } else if (numberOfAxles < 8) {
+        } else if (numberOfAxels < 8) {
             tollTotal = (.045 * distance);
         } else {
             tollTotal = (.048 * distance);
         }
-    return tollTotal;
+        return tollTotal;
     }
-}
+
+    @Override
+    public String toString() {
+        if (numberOfAxels <= 4) {
+            return "truck (4 axels)";
+        } else if (numberOfAxels <= 6) {
+            return "truck (6 axels)";
+       } else (numberOfAxels <= 8) {
+          return "truck (8 axels)";
+        }
+        }
+    }
