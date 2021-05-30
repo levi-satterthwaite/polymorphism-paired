@@ -15,7 +15,7 @@ public class Car implements Vehicle {
 
     @Override
     public double calculateToll(int distance) {
-        
+
         return 0;
     }
 }
