@@ -29,4 +29,5 @@ public class Car implements Vehicle {
         }
         return tollTotal;
     }
+
 }
