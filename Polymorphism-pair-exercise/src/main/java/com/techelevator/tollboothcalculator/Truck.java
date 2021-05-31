@@ -38,9 +38,9 @@ public class Truck implements Vehicle {
         if (numberOfAxels <= 4) {
             return "Truck (4 axels)";
         } else if (numberOfAxels <= 6) {
-            return "truck (6 axels)";
+            return "Truck (6 axels)";
        } else if (numberOfAxels >= 8) {
-          return "truck (8 axels)";
+          return "Truck (8 axels)";
         }
         return "";
     }
