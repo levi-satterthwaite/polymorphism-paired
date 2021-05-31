@@ -10,8 +10,8 @@ public class Tank implements Vehicle {
     }
 
 
-@Override
-public String toString(){
+    @Override
+    public String toString(){
     return "Tank";
 }
 }

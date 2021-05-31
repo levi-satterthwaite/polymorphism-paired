@@ -29,13 +29,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../levisatterthwaite-java-blue/module-1/05_Command_Line_Programs/lecture-final" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager" selected="Application.TollCalculator">
+  <component name="RunManager" selected="Application.PostageCalculator">
     <configuration name="CatPackingCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.techelevator.example.CatPackingCalculator" />
       <module name="m01d05-command-line-programs-lecture-final" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.techelevator.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostageCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techelevator.postagecalculator.PostageCalculator" />
+      <module name="m01d15-polymorphism-pair-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techelevator.postagecalculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,8 +71,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TollCalculator" />
+        <item itemvalue="Application.PostageCalculator" />
         <item itemvalue="Application.CatPackingCalculator" />
+        <item itemvalue="Application.TollCalculator" />
       </list>
     </recent_temporary>
   </component>
