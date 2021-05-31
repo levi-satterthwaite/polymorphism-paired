@@ -1,4 +1,4 @@
-package com.techelevator;
+package com.techelevator.tollboothcalculator;
 
 public class Truck implements Vehicle {
 

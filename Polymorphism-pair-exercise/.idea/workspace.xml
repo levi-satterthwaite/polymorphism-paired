@@ -44,11 +44,11 @@
       </method>
     </configuration>
     <configuration name="TollCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techelevator.TollCalculator" />
+      <option name="MAIN_CLASS_NAME" value="com.techelevator.tollboothcalculator.TollCalculator" />
       <module name="m01d15-polymorphism-pair-exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.techelevator.*" />
+          <option name="PATTERN" value="com.techelevator.tollboothcalculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

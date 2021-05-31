@@ -1,6 +1,6 @@
-package com.techelevator;
+package com.techelevator.tollboothcalculator;
 
-public class Tank implements Vehicle{
+public class Tank implements Vehicle {
 
 
     // method
